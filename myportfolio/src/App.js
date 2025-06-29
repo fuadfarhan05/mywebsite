@@ -13,7 +13,7 @@ export default function App() {
   return (
     <div className="App">
       <div className="card">
-        <h2>Fuad Farhan</h2>
+        <h2>Fuad Faran</h2>
          <h4>Email:fuadhoquefarhan05@gmail.com</h4>
         
         <a href = "https://www.linkedin.com/in/fuadfarhan/">Linkedin</a>

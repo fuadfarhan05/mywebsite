@@ -13,7 +13,7 @@ export default function App() {
   return (
     <div className="App">
       <div className="card">
-        <h2>Fuad Faran</h2>
+        <h2>Fuad Farhan</h2>
          <h4>Email:fuadhoquefarhan05@gmail.com</h4>
         
         <a href = "https://www.linkedin.com/in/fuadfarhan/">Linkedin</a>
@@ -24,6 +24,12 @@ export default function App() {
       
       <div className="bars">
       <h3><strong>Recent Builds for YOU!</strong></h3>
+       <div className="bar-item">
+          <button className="bar-item" onClick={() => window.location.href = 'https://lenseforlearning.vercel.app'}>
+           Lense
+          </button>
+      </div>
+
       <div className="bar-item">
           <button className="bar-item" onClick={() => window.location.href = 'https://github.com/fuadfarhan05/HabitAware'}>
            Habit Aware
@@ -40,7 +46,7 @@ export default function App() {
       
 
       <div className="bars">
-      <h3><strong>2x Hackathon Winner</strong></h3>
+      <h3><strong>🏆🏆 2x Hackathon Winner</strong></h3>
         <div className="bar-item">
           <button className="bar-item" onClick={() => window.location.href = 'https://devpost.com/software/habitaware'}>
            Hunter Hacks
